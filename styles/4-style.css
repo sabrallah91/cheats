@@ -1,0 +1,34 @@
+/* styles/3-style.css */
+
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Revisit section-tagline and card-category declarations */
+.section-tagline,
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Set body's font-family to font-family-base */
+body {
+  color: var(--text-color);
+   font-family: var(--font-family-base);
+}
+
+a {
+  color: var(--text-color);
+}
+
+/* Create a new declaration targeting all 6 levels of section headings */
+h1, h2, h3, h4, h5, h6 {
+  /* Set font-family to font-family-title */
+  font-family: var(--font-family-title);
+}
